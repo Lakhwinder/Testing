@@ -5,10 +5,8 @@ var edit_page = function() {
 		element(by.model('selectedEmployee.email')).clear();
 		element(by.model('selectedEmployee.email')).sendKeys(email);
 	};
-	this.getEmail=function(){
-		return element(by.model('selectedEmployee.email'));
-	};	
-	this.clickUpdate=function(){
+		
+	this.clickUpdate=function(email){
 		element(by.buttonText('Update')).click();
 		return require('./employeelist_page.js');
 	};

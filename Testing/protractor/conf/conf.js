@@ -20,11 +20,11 @@ exports.config = {
 	  url:'http://cafetownsend-angular-rails.herokuapp.com/login',
 	  username:'Luke',
 	  password: 'Skywalker',
-	  empfirstname:'Master',
-	  emplastname:'Shifu',
+	  empfirstname:'Master1',
+	  emplastname:'Shifu1',
 	  empstartdate:'2018-01-31',
 	  empemail:'master@master.com',
-	  searchempname: 'Vladimir Putin',
+	  searchempname: 'Master1 Shifu1',
 	  //Below is the info to be updated in employee record
 	  updatedemail:'master.updated@master.com',
 	  //URL substrings
